@@ -1,0 +1,23 @@
+// prefixer mixin
+@mixin prefixer($property, $value, $prefixes) {
+  @each $prefix in $prefixes {
+    #{'-' + $prefix + '-' + $property}: $value;
+  }
+  #{$property}: $value;
+}
+
+// keyframe prefixer
+@mixin keyframes($name) {
+  @-webkit-keyframes #{$name} {
+    @content;
+  }
+  @keyframes #{$name} {
+    @content;
+  }
+}
+
+// padding mixin
+@mixin padding($value) {
+  padding-top: $value;
+  padding-bottom: $value;
+}
