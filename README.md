@@ -1,4 +1,4 @@
-![Image of Yaktocat](https://raw.githubusercontent.com/kareem-m/sparkle/images/logo.png)
+![Image of Yaktocat](https://raw.githubusercontent.com/kareem-m/sparkle/main/images/logo_light.png)
 ### Sparkle is a free PSD template made by [Graphberry](https://www.graphberry.com/item/sparkle-free-multipurpose-tweb-emplate).
 ### The goal of creating this website is to develop my programming skills.
 #### You can view the website from this [link](https://kareem-m.github.io/sparkle/).
